@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PTRootUIWebLight';
+	src:
+		url('./PT-Root-UI_Light.woff2') format('woff2'),
+		url('./PT-Root-UI_Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

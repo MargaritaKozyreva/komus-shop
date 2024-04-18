@@ -1,0 +1,70 @@
+.gallary-image-root {
+  max-width: 640px;
+  max-width: 400px;
+}
+
+.gallary-image-root-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallary-image-root .gallery-photo-item {
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+
+.gallary-image-root .main-item {
+  border: 1px solid #7311d5;
+}
+
+.gallary-image-root .delete-image-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 0;
+  cursor: pointer;
+}
+
+.gallary-image-root .main-item-wrapper {
+  position: relative;
+  padding-top: 30px;
+  bottom: 30px;
+}
+.gallary-image-root .main-item-wrapper span {
+  color: #7311d5;
+  position: absolute;
+  top: 0px;
+  width: max-content;
+}
+.gallary-div {
+
+}
+.gallary-div-image {
+
+}
+
+:where(.css-dev-only-do-not-override-1s3dcof).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-block: 0 8px;
+  margin-inline: 0 8px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.ant-upload-wrapper .ant-btn:hover, .ant-btn:focus {
+  color: inherit;
+  border-color: none !important;
+  background: none !important;
+}
+
+.ant-upload-wrapper .ant-btn {
+  color: inherit;
+  border-color: none !important;
+  background: none !important;
+}

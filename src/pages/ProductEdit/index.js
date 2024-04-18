@@ -1,0 +1,1 @@
+export { ProductEdit as ProductEditPage } from './ProductEdit';

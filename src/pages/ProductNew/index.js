@@ -1,0 +1,1 @@
+export { ProductNew as ProductNewPage } from './ProductNew';

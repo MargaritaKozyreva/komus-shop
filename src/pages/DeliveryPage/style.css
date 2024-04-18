@@ -1,0 +1,155 @@
+.delivery-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.delivery-options {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.option-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 2px solid #bababa;
+}
+
+.option-card svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.option-card.selected {
+  border: 2px solid #7c33d8;
+}
+.option-card.selected svg {
+  fill: #7c33d8;
+}
+
+.option-card svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.delivery-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.delivery-form input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.delivery-form textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.delivery-form button {
+  width: 100px;
+  padding: 5px;
+  color: white;
+  background-color: #7c33d8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delivery-form button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.delivery-form input[type="radio"] {
+  display: none;
+}
+
+.delivery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+}
+
+.delivery-text span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+@media (max-width: 600px) {
+  .delivery-form {
+    margin-top: 30px;
+  }
+
+  .delivery-text p {
+    font-size: 13px;
+    line-height: 0;
+    white-space: nowrap;
+  }
+
+  .delivery-options {
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .option-card {
+    width: 45% !important;
+    margin-bottom: 20px;
+  }
+
+  .delivery-form input {
+    width: 100%;
+  }
+
+  .delivery-form textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+
+  .delivery-options {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .option-card {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+}

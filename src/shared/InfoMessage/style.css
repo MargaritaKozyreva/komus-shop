@@ -1,0 +1,31 @@
+.info-message {
+  position: relative;
+  width: 431px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.info-message h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #7c33d8;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .info-message {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .info-message h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #7c33d8;
+  }
+  
+}

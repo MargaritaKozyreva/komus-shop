@@ -1,0 +1,17 @@
+.layout {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.layout-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    padding: 20px;
+  }
+}

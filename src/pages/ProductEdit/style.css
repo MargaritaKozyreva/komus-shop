@@ -1,0 +1,151 @@
+.product-edit-page {
+  display: flex;
+  gap: 30px;
+}
+
+.product-edit-main-section {
+  width: 50%;
+}
+.product-edit-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.product-edit-page-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  color: #000000;
+}
+
+.product-edit-page-stock {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.product-edit-button {
+  cursor: pointer;
+  box-sizing: border-box;
+  min-width: 97px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  margin: 5px;
+}
+.product-edit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.product-edit-page .selected-size {
+  color: #7c33d8;
+  border: 1px solid #7311d5;
+}
+
+.product-edit-page .button-panel {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.product-edit-page .desc {
+  position: absolute;
+  width: 647px;
+  height: 180px;
+  left: 735px;
+  top: 822px;
+
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 145%;
+
+  /* or 30px */
+
+  color: #303030;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-edit-page .cart-btn {
+  width: 331px;
+  height: 51px;
+}
+
+.gallery-photo-item {
+  position: relative;
+}
+.product-variants-wrapper {
+  background: #fafafa;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.product-variants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 672px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-variant-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-variant-item-var {
+  width: 420px;
+}
+
+.product-variant-item-size {
+  width: 106px;
+  padding-right: 50px;
+}
+
+.product-variant-item-close-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 0;
+  top: 23px;
+  cursor: pointer;
+}
+
+.product-edit-action-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-edit {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.money-icon {
+  color: #5e5e5e;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 100%;
+}

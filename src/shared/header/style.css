@@ -1,0 +1,118 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .text {
+  color: #333333;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.user img {
+  width: 40px;
+}
+
+.red-point {
+  border-radius: 12px;
+  background: #de4973;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.admin-panel {
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  gap: 20px;
+}
+
+.admin-panel__wrapper {
+  display: flex;
+  background: #3e3e3e;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.admin-panel__text {
+  color: #ffffff;
+}
+
+.main-logo {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user {
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user img {
+    width: 40px;
+  }
+
+  .user p {
+    max-width: 115px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .admin-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .admin-panel__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-logo {
+    width: 70%;
+    height: auto;
+  }
+}

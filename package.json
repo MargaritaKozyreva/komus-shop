@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "5.2.6",
+    "@komus/design": "0.0.5",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
+    "antd": "5.7.3",
+    "axios": "1.4.0",
+    "bootstrap": "5.3.0",
+    "classnames": "2.3.2",
     "react": "^18.2.0",
+    "react-bootstrap": "2.8.0",
     "react-dom": "^18.2.0",
+    "react-input-mask": "2.0.4",
+    "react-router-dom": "6.12.1",
     "react-scripts": "5.0.1",
+    "styled-components": "6.0.0-rc.3",
     "web-vitals": "2.1.4"
   },
   "scripts": {
